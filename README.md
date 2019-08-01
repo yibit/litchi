@@ -3,7 +3,7 @@ Name
 
 litchi, a scaffold of gitbook.
 
-UsagL
+Usage
 ======
 
 make
