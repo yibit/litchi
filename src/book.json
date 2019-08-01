@@ -1,0 +1,69 @@
+{
+    "title": "gitbook scaffold",
+    "author": "yibit",
+    "description": "A scaffold of gitbook",
+    "language": "zh-hans",
+    "styles": {
+      "website": "./public-repertory/css/gitbook-configure.css"
+    },
+    "plugins": [
+      "theme-comscore",
+      "prism",
+      "-highlight",
+      "copy-code-button",
+      "search-pro",
+      "-search",
+      "-lunr",
+      "expandable-chapters",
+      "splitter",
+      "-sharing",
+      "github-buttons",
+      "donate",
+      "tbfed-pagefooter",
+      "baidu-tongji",
+      "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+      "github-buttons": {
+        "buttons": [
+          {
+            "user": "yibit",
+            "repo": "litchi", 
+            "type": "star",
+            "count": true,
+            "size": "small"
+          }, 
+          {
+            "user": "yibit",
+            "width": "160", 
+            "type": "follow", 
+            "count": true,
+            "size": "small"
+          }
+        ]
+      },
+      "donate": {
+        "button": "打赏",
+        "alipayText": "支付宝打赏",
+        "wechatText": "微信打赏",
+        "alipay": "https://github.com/yibit/litchi/blob/master/misc/seek-reward.jpg?raw=true",
+        "wechat": "https://github.com/yibit/litchi/blob/master/misc/seek-reward.png?raw=true"
+      },
+      "prism": {
+        "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+        ],
+        "lang": {
+          "shell": "bash"
+        }
+      },
+      "tbfed-pagefooter": {
+        "copyright":"Copyleft&copy Yibit 2019",
+        "modify_label": "Last-Modified：",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "anchor-navigation-ex": {
+        "showLevel": false
+      }
+    }
+}

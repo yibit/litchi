@@ -1,0 +1,7 @@
+src/_book
+src/node_modules
+.DS_Store
+*.tags
+*.gz
+*.tar
+*~

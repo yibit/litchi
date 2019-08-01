@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c",
+        "*.cc": "cpp",
+        "*.sh": "shellscript",
+        "*.lua": "lua",
+        "*.go": "go"
+    },
+    "files.encoding": "utf8",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.o": true,
+        "**/*.udb": true,
+        "**/*.gz": true,
+        "**/*.tar": true,
+        "**/*.tags": true,
+        "**/.vstags": true,
+        "**/node_modules": true,
+        "**/_book": true
+    },
+}
