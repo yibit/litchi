@@ -18,7 +18,7 @@ build: install
 	cd src && gitbook build
 
 install:
-	cd src && gitbook install
+	cd src && yarn install && gitbook install
 
 serve:
 	cd src && gitbook serve --port 4379 --lrport 4479 --watch
