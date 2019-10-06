@@ -9,5 +9,6 @@ Usage
 ```bash
 
 make
+make build
 make serve
 ```

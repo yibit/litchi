@@ -27,15 +27,15 @@
         "buttons": [
           {
             "user": "yibit",
-            "repo": "litchi", 
+            "repo": "litchi",
             "type": "star",
             "count": true,
             "size": "small"
-          }, 
+          },
           {
             "user": "yibit",
-            "width": "160", 
-            "type": "follow", 
+            "width": "160",
+            "type": "follow",
             "count": true,
             "size": "small"
           }
