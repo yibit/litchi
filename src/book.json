@@ -20,7 +20,8 @@
       "github-buttons",
       "donate",
       "tbfed-pagefooter",
-      "anchor-navigation-ex"
+      "anchor-navigation-ex",
+      "image-captions"
     ],
     "pluginsConfig": {
       "github-buttons": {
@@ -63,6 +64,10 @@
       },
       "anchor-navigation-ex": {
         "showLevel": false
+      },
+      "image-captions": {
+        "caption": "_PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+        "align": "centre"
       }
     }
 }
